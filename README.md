@@ -23,12 +23,14 @@ This project is intended strictly for educational and lab purposes.
 
 ## 🛠️ Project Structure
 
-copy_tip/
-├── app.py
-├── logger.py
-├── README.md
-├── DISCLAIMER.md
-└── logs/
+| File | Purpose |
+|------|---------|
+| `app.py` | Main application script |
+| `logger.py` | Logging module |
+| `README.md` | Project documentation |
+| `DISCLAIMER.md` | Usage disclaimer and warnings |
+| `logs/` | Directory for runtime logs |
+
 
 The log file (keystrokes.log) is automatically created inside the logs/
 directory when the application is executed.
@@ -59,3 +61,4 @@ copy_tip does not bypass operating system security controls and does not
 perform any form of stealth, persistence, or unauthorized monitoring.
 
 This project exists solely for education and ethical hacking practice.
+
