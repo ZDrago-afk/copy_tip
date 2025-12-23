@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="picture/copy_tip.png" alt="copy_tip logo" width="280">
+</p>
+
 # copy_tip
 
 copy_tip is a desktop-based educational project created for ethical hacking
@@ -23,13 +27,15 @@ This project is intended strictly for educational and lab purposes.
 
 ## 🛠️ Project Structure
 
-| File | Purpose |
-|------|---------|
-| `app.py` | Main application script |
-| `logger.py` | Logging module |
+| File / Folder | Purpose |
+|--------------|---------|
+| `app.py` | Main GUI application script |
+| `logger.py` | Application-scoped input logging logic |
+| `picture/` | Project assets and branding |
+| `picture/copy_tip.png` | copy_tip logo used in README |
 | `README.md` | Project documentation |
-| `DISCLAIMER.md` | Usage disclaimer and warnings |
-| `logs/` | Directory for runtime logs |
+| `DISCLAIMER.md` | Legal, ethical usage disclaimer |
+| `logs/` | Directory for locally stored runtime logs |
 
 
 The log file (keystrokes.log) is automatically created inside the logs/
@@ -61,4 +67,5 @@ copy_tip does not bypass operating system security controls and does not
 perform any form of stealth, persistence, or unauthorized monitoring.
 
 This project exists solely for education and ethical hacking practice.
+
 
